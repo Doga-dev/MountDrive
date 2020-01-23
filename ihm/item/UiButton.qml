@@ -26,7 +26,7 @@ Button {
 		id: label
 		text: control.text
 		font: control.font
-		color: control.down ? "#030000" : "#b1b2b3"
+		color: control.down ? "#030000" : (control.focus ? "white" : "#b1b2b3")
 		verticalAlignment: Text.AlignVCenter
 		horizontalAlignment: Text.AlignHCenter
 	}

@@ -116,8 +116,8 @@ Item {
 //		}
 		UiLabel {
 			id: mountingState;
-			text: proc.isMounted() ? qsTr("Connected") : qsTr("Unconnected")
-			color: proc.isMounted() ? qsTr("green") : qsTr("red")
+			text: proc.isMounted ? qsTr("Connecté") : qsTr("Déconnecté")
+			color: proc.isMounted ? "green": "red"
 			Layout.columnSpan: 2
 			Layout.fillWidth: true;
 			horizontalAlignment: Text.AlignHCenter

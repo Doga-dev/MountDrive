@@ -6,4 +6,9 @@ TextField {
 	property int minWidth: Math.max(contentWidth, implicitWidth);
 	property int minHeight: Math.max(contentHeight, implicitHeight);
 
+	onFocusChanged: {
+		if (focus) {
+			selectAll();
+		}
+	}
 }
