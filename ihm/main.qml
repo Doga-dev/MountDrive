@@ -7,7 +7,7 @@ Window {
 	visible: true
 	width: 1280
 	height: 800
-	title: qsTr("Mount Drive")
+	title: qsTr("Montage d'un répertoire partagé sur le réseau")
 
 	RowLayout {
 		id: rLayout

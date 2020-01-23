@@ -45,22 +45,13 @@
     </message>
     <message>
         <location filename="ihm/panel/MountNetworkFolder.qml" line="119"/>
-        <source>Connected</source>
+        <source>Connecté</source>
+        <oldsource>Connected</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="ihm/panel/MountNetworkFolder.qml" line="119"/>
-        <source>Unconnected</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ihm/panel/MountNetworkFolder.qml" line="120"/>
-        <source>green</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ihm/panel/MountNetworkFolder.qml" line="120"/>
-        <source>red</source>
+        <source>Déconnecté</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -68,7 +59,8 @@
     <name>UiButton</name>
     <message>
         <location filename="ihm/item/UiButton.qml" line="6"/>
-        <source>Button</source>
+        <source>Bouton</source>
+        <oldsource>Button</oldsource>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -76,7 +68,7 @@
     <name>main</name>
     <message>
         <location filename="ihm/main.qml" line="10"/>
-        <source>Mount Drive</source>
+        <source>Montage d&apos;un répertoire partagé sur le réseau</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

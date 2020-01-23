@@ -3,7 +3,7 @@ import QtQuick.Controls 2.3
 
 Button {
 	id: control
-	text: qsTr("Button")
+	text: qsTr("Bouton")
 	states: [
 		State {
 			name: "disabled"; when: ! enabled;
