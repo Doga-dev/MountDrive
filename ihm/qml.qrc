@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>item/UiButton.qml</file>
+        <file>panel/MountNetworkFolder.qml</file>
+        <file>qml.qrc</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>item/UiInputField.qml</file>
+        <file>item/UiLabel.qml</file>
+        <file>item/UiTextField.qml</file>
+    </qresource>
+</RCC>
